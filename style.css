@@ -1,0 +1,123 @@
+body{
+    padding: 30px;
+    background-color: #ededed;
+}
+
+.wrapper{
+   max-width: 690px;
+   margin: 10px auto;
+
+}
+
+#balloon-gallery div{
+    background-color: #ff1100;
+    height: 121px;
+    width: 119px;
+    text-align: center;
+    color:#ff1100;
+    font-size: 40px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    margin: 2.5px 5 px 2.5px 0px;
+    border-radius: 130px 130px 190% 190% ;
+
+}
+
+#balloon-gallery div:nth-child(3n){
+    background-color: purple ;
+    color: purple;
+}
+
+#balloon-gallery div:nth-child(3n-1){
+    background-color: #3f7abe;
+    color: #3f7abe;
+}
+
+
+#balloon-gallery div:nth-child(5n){
+    background:#8e7e;
+    color:#8e7e;
+}
+
+#balloon-gallery div:nth-child(13){
+    background:#165b61;
+    color:#165b61;
+}
+
+#balloon-gallery div:nth-child(10n){
+   background-color: #292929;
+   color: #292929;
+}
+
+#balloon-gallery div:nth-child(4n){
+    clear:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: flex;
+    text-justify: inter-character;
+    background-color: rgb(146, 87, 87);
+    border: none;
+    outline: none;
+    border-color: rgb(66, 157, 199);
+}
+
+body{
+    padding: 12px;
+    margin: 10px;
+    float: left;
+    flex-wrap: nowrap;
+    text-justify: inter-character;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(152, 224, 16);
+    border: 1px solid rgb(32, 31, 41);
+    border: none;
+    outline: none;
+    border-color: rgb(133, 127, 93);
+}
+
+.container{
+    padding: 15px;
+    margin: 25px;
+
+    flex-wrap: nowrap;
+    text-justify: inter-character;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-family:sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(155, 31, 31);
+    border: 1px solid rgb(29, 94, 83);
+    border: none;
+    outline: none;
+    border-color: rgb(190, 120, 14);
+} */
